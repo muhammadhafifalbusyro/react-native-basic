@@ -8,8 +8,7 @@ export default class Home extends Component {
       <View>
         <Header />
         <Text onPress={() => this.props.navigation.navigate('Detail')}>
-          {' '}
-          Home{' '}
+          Hello
         </Text>
       </View>
     );
